@@ -1,83 +1,96 @@
 body {
-  	font-family: "Lato" sans-serif;
-  	width: 720px;
-  	margin-left: 65px;
-  	margin-top: 70px;
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #ffffff;
+	color: #444444;
+}
+
+#wrapper {
+	padding: 54px;
+	width: 720px;
+	border-left: 6px solid #dddddd;
+}
+
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aa0000;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-  	font-size: 250%;
-  	color: #df1800;
+	font-size: 54px;
+	font-weight: normal;
 }
 
 h2 {
+	font-size: 36px;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+h2 a {
 	color: black;
 }
 
-.toptabs {
-	color: #dddddd;
-	border-bottom: 2px solid #dddddd;
-  	font-size: 125%;
-  	text-decoration: none;
-  	padding-bottom: 10px;
-  	margin: 0px 10px 0px 10px;
-}
-
-.toptabs:hover, .bottomtabs:hover {
-  	color: black;
-}
-
-.bottomtabs {
+h2 a:hover {
 	color: #DD0000;
-	text-decoration: none;
-	/*padding: 100px 0px 15px 0px;*/
 }
 
-.date {
-	color: #cccccc;
-	font-size: 180%;
-	margin: 50px 0px 15px 0px;
+h3 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #CCCCCC;
+	margin: 0;
+	padding: 0;
 }
 
-.post {
-	color: black;
-  	font-size: 200%;
-	margin: 0px 0px 15px 0px;
-}
-
-.continues {
-	display: block;
+h4 {
 	text-align: right;
-	color: #DD0000;
-  	text-decoration: none;
-  	font-weight: bold;
-  	font-size: 18px;
-  	margin-bottom: 25px;
-}
-
-.continues:hover {
- 	color: #aa0000;
- 	font-weight: bold;
-}
-
-.article{
-	border-bottom: 1px solid #444444;
-}
-p {
-  	color: #444444;
-	line-height: 150%;
 }
 
 img {
-	width: 95%;
+	display: block;
+	margin: 10px 0;
+	width: 100%;
 }
 
-.footer {
-	padding: 50px 0px 25px 0px;
+
+#header h2 {
+	font-size: 27px;
+	margin-bottom: 9px;
 }
 
-#copyright {
-	padding: 20px 0px 0px 0px;
+#footer {
 	color: #bbbbbb;
-	font-size: 18px;
+}
+
+#header .nav a {
+	font-size: 22px;
+	margin-right: 16px;
+	color: #dddddd;
+	border-bottom: 2px solid #eeeeee;
+}
+
+#header .nav a:hover {
+	color: black;
+	border-bottom: 2px solid #bbbbbb;
+}
+
+.article {
+	border-bottom: 1px solid #dddddd;
+	margin: 54px 0;
+	padding-bottom: 27px;
 }
