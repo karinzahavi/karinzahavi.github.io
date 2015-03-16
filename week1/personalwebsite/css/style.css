@@ -6,10 +6,11 @@
 body {
 	text-align: center;
 	background-color: #D56152;
-	background-image: urL("");
 }
 ul {
 	padding:20px;
+	width: 800px;
+	margin: 0 auto;
 }
 li {
 	padding: 0px 14px 0px 14px;
@@ -49,6 +50,8 @@ p {
 	margin: 0px 210px 40px 210px;
 	color: #451D00;
 	background: none;
+	width: 400px;
+	margin: 0 auto;
 }
 h5 {
 	text-size:20px;
