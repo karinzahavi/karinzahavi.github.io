@@ -1,0 +1,41 @@
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: black;
+}
+
+nav {
+	color: #CCCCCC;
+}
+
+#main {
+	background-image: URL("../images/bg.png");
+}
+
+nav a:hover{
+	color: #96DDFC;
+}
+
+body {
+	color: #333333
+}
+
+/*FOOTER STYLES*/
+
+footer {
+	background-color: black;
+	color: #515151;
+	font-size: 13px;
+}
+
+}
+footer h3 {
+	color: #cccccc;
+}
+
+Footer Columns:
+210px, 400px, 210px
+30px margins

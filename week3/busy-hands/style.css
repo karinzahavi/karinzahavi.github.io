@@ -1,0 +1,36 @@
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background: black;
+}
+
+header a {
+	text-decoration: none;
+	color: #CCCCCC;
+	padding: 20px 15px 20px 15px;
+	width: 22px;
+	display: block;
+	float: left;
+	font-size: 20px;
+}
+
+#main {
+	background-image: URL("../images/bg.png");
+}
+
+footer {
+	background: black;
+}
+
+footer a {
+	color: #515151;
+	font-size: 13px;
+}
+
+.homeboxes {
+	float: left;
+	display: block;
+}
