@@ -3,39 +3,180 @@
 	margin: 0 auto;
 }
 
-nav {
+header {
 	background-color: black;
+	overflow: hidden;
 }
 
-nav {
+header nav a {
+	display: block;
+	float: left;
+	padding: 30px 25px 30px 0px;
+	text-decoration: none;
 	color: #CCCCCC;
 }
 
-#main {
-	background-image: URL("../images/bg.png");
+header nav a:hover {
+	color: #96DDFC;
+	text-decoration: none;
+}
+/*
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}*/
+
+/*When I attempted to use clearfix to prevent the header from collapsing, the header wasn't showing the black background it's supposed to have. I had to use the overflow:hidden approach instead. Why doesn't using clearfix preserve the black background on the header?*/
+
+#logo{
+	width: 290px; 
+	height: 50px;
+	background: url("../images/logo.png");
+	text-indent: -9999px; 
+	overflow: hidden; 
 }
 
-nav a:hover{
-	color: #96DDFC;
+/*Am I using height & width in the right way here? I'm noticing that if I make the width wider, the image shows up again in a tiled way. Why does the image get tiled?*/
+
+#social-media {
+	display: block;
+	float: right;
 }
+
+/*Having trouble to get this displaying correctly*/
 
 body {
-	color: #333333
+	color: #333333;
 }
 
-/*FOOTER STYLES*/
+body a {
+	color: #1FA2E1;
+	text-decoration: none;
+}
 
-footer {
-	background-color: black;
-	color: #515151;
+body a:hover {
+	text-decoration: underline;
+	color: #1FA2E1;
+}
+
+#main {
+	background-image: url("../images/bg.png");
+	overflow: hidden;
+	padding: 0px 0px 20px 0px;
+}
+
+#blurb {
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	padding: 15px 15px 15px 15px;
+	overflow: hidden;
+}
+
+#button {
+	float: right;
+}
+
+/*I'm having trouble getting the text to wrap around the button. Not sure how to correct?*/
+
+.homeboxes {
+	width: 290px;
+/*	margin: 40px;*/
+	display: block;
+	float: left;
+}
+
+.homeboxes h2 {
+	font-weight: normal;
+}
+
+.homeboxes img {
+	border: 6px solid #E2E2E2;
+}
+
+.homeboxes img:hover {
+	border: 6px solid #F9F9F9
+}
+
+.homeboxes p {
+	line-height: 110%;
 	font-size: 13px;
-}
+	padding: 5px;
 
 }
+
+.homeboxes a{
+	font-size: 12px;
+	padding: 5px;
+}
+footer {
+	clear: both;
+	color:	#515151;
+	font-size: 13px;
+	background-color: black;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
 footer h3 {
-	color: #cccccc;
+	color: #CCCCCC;
+	font-weight: normal;
+	font-size: 20px;
 }
 
-Footer Columns:
-210px, 400px, 210px
-30px margins
+.footer_boxes {
+	display: block;
+	float: left;
+	margin: 40px 20px 40px 0px;
+}
+
+.footer_boxes #blogroll {
+	width: 210px;
+}
+
+.footer_boxes #blogroll .blogroll {
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	line-height: 250%;
+}
+
+.footer_boxes #text {
+	width: 400px;
+}
+
+.footer_boxes p {
+	line-height: 120%;
+	border-top: 1px solid gray;
+	padding: 10px 0px 0px 0px;
+}
+
+.footer_boxes #meta {
+	width: 210px;
+}
+
+.footer_boxes #meta .meta {
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	line-height: 250%;
+}
+
+/*Is there a way to get borders less than 1px wide? I'm seeing my border is wider than the design shows its supposed to be...*/
+
+#copyright {
+	clear: both;
+	display: block;
+	float: left;
+}
+#companybottom {
+	display: block;
+	float: right;
+	margin-top: 20px;
+}
+
+/*Having trouble to get this displaying correctly*/
+

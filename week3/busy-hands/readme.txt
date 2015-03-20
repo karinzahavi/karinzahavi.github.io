@@ -1,47 +1,49 @@
 Colors
 
-Body
-#333333
+		Body
+		#333333
 
-Navigation
-#CCCCCC
+		Navigation
+		#CCCCCC
 
-Navigation Hover
-#96DDFC
+		Navigation Hover
+		#96DDFC
 
-Footer Headings
-#CCCCCC
+		Footer Headings
+		#CCCCCC
 
-Footer Text (already inherited from body)
-#333333
-
-Anchors
-#1FA2E1
-
-Anchor Hover
-underline
-
-Home Box Borders
-6px thick
-#E2E2E2
-
-Home Box Border Hover
-6px thick
-#F9F9F9
-
-Content
-960px wide
-
-Home Boxes:
-290px with 40px margin
+		Footer Text (already inherited from body)
+		#333333
 
 Footer Columns:
 210px, 400px, 210px
 30px margins
 
-Footer Text:
-#515151
-13px
+		Footer Text:
+		#515151
+		13px
+
+		Anchors
+		#1FA2E1
+
+		Anchor Hover
+		underline
+
+	Home Box Borders
+	6px thick
+	#E2E2E2
+
+	Home Box Border Hover
+	6px thick
+	#F9F9F9
+
+		Content
+		960px wide
+
+		Home Boxes:
+		290px with 40px margin
+
+
 
 Some Possible Elements, IDs and Classes You Might Use
 -----------------------------------------------------
