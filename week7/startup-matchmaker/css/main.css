@@ -1,0 +1,158 @@
+#page-header {
+	background-color: black;
+	border-bottom: 3px solid yellow;
+	overflow: hidden;
+	padding: 1%;
+}
+body {
+	font-size: 14px;
+}
+h1 a {
+	font-size: 1.5em;
+	color: yellow;
+	float: left;
+	overflow: hidden;
+	text-decoration: none;
+	font-family: merriweather, arial;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 2%;
+	font-family: source sans pro, arial;
+}
+
+nav {
+	float: right;
+}
+
+strong a {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: oswald, arial;
+}
+
+.tagline {
+	background-color: #DCDCDC;
+	margin: 0 auto;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.5em;
+	color: black; 
+	padding: 1%;
+	font-family: merriweather, arial;
+	font-weight: bold;
+}
+
+#taste {
+	color: gray;
+	text-decoration: line-through;
+	text-decoration-color: gray;
+}
+
+#are {
+	border-bottom: 3px solid yellow;
+}
+
+h2 {
+	padding-bottom: 1%;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: merriweather, arial;
+}
+
+.blurb p {
+	padding: 1%;
+	line-height: 1.3em;
+}
+
+.banner {
+	background-image: url("../images/coworking.jpg");
+	overflow: hidden;
+	height: 500px;
+}
+
+.blurb {
+	background-color: rgba(225,225,225, 0.9);
+	padding: 40px;
+	margin: 40px;
+	width: 33.33%;
+	float: right;
+}
+
+.blurb .button {
+  display: block;
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact;
+  color: black;
+  border-radius: 3px;
+  background-color: yellow;
+  box-shadow: 0 2px 0 0 #DAA520;
+  margin: 5px;
+}
+
+.callout .button {
+  display: block;
+  width: 90%;
+  height: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact;
+  color: black;
+  border-radius: 3px;
+  background-color: #DCDCDC;
+  box-shadow: 0 2px 0 0 gray;
+  margin-top: 10px;
+}
+
+a:hover {
+  box-shadow: none;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.callout p {
+	font-family: source sans pro, arial;
+	line-height: 25px;
+}
+
+.callouts {
+	background-color: #DCDCDC;
+	border: 2px solid green;
+}
+
+.callout {
+	float: left;
+	width: 33%;
+	border: 3px solid red;
+	padding: 20px;
+	 -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h3 {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: merriweather, arial;
+	padding-bottom: 10px;
+}
+
+footer {
+	clear: both;
+	background-color: black;
+	color: white;
+	padding: 15px 10px;
+}
+
+
+
+
